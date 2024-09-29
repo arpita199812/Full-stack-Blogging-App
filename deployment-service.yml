@@ -13,7 +13,7 @@ spec:
         app: bloggingapp
     spec:
       containers:
-        - name: bloggingapp
+        - name: blogging-app
           image: arpita199812/blogging-app:v1.1 # Updated image to private DockerHub image
           imagePullPolicy: Always
           ports:
